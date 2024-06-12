@@ -7,6 +7,10 @@
     background-color: #0a0a0a;
 }
 
+body{
+    min-height: 1000vh;
+}
+
 .navbar {
     max-width: 100%;
     height: 50px;
@@ -45,26 +49,27 @@ a.title {
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 .timage {
     width: 700px;
     height: auto;
-    margin: 20px;
+    margin: 10px;
 }
 .container .timage h5  {
     background-color: transparent;
-    margin-top: -100px;
+    margin-top: -70px;
     display: flex;
     position: absolute;
     color: white;
     font-size: 40px;
-    padding: 50px;
+    padding: 20px;
 }
 .container .timage p{
-    margin-top: -400px;
+    margin-top: -450px;
     color: white;
     font-size: 20px;
-    padding: 50px;
+    padding: 20px;
 }
 .btn {
     background-color: #1d07e4;
@@ -72,7 +77,7 @@ a.title {
     border-radius: 20px;
     border: none;
     padding: 15px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .btn:hover {
     background-color: aqua;
@@ -99,4 +104,37 @@ a.title {
     border: 1px solid white;
     padding: 10px;
     margin: 5px;
+}
+
+.tems {
+    color: white;
+    padding-top: 200px;
+}
+.tems h5{
+    font-size: 20px;
+    padding: 10px;
+}
+h5 {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.wrapper {
+    max-width: 100%;
+    display: flex;
+    grid-gap: 10px;
+    padding: 10px;
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .img {
+    height: 200px;
+    min-width: 300px;
+    background-color: #f5f0f035;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
