@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    background-color: #0a0a0a;
 }
 
 .navbar {
@@ -34,13 +35,68 @@ a.title {
     padding: 10px;
 }
 .navbar ul li a:hover {
-    color: rgba(38, 38, 44, 0.644);
-    border-bottom: 1px solid #0a0a0a;
-    transition: 0.2s;
+    color: rgba(193, 193, 211, 0.644);
+    border-bottom: 1px solid #f0eaea;
+    transition: 0.5s;
 }
 
 .container img{
     width: 100%;
-    height: 500px;
-    
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.timage {
+    width: 700px;
+    height: auto;
+    margin: 20px;
+}
+.container .timage h5  {
+    background-color: transparent;
+    margin-top: -100px;
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+}
+.container .timage p{
+    margin-top: -400px;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+}
+.btn {
+    background-color: #1d07e4;
+    color: rgb(248, 246, 246);
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    margin-left: 50px;
+}
+.btn:hover {
+    background-color: aqua;
+}
+.info {
+    background-color: #eae0e051;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+}
+.info i {
+    position: relative;
+    top: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+}
+.container .timage .age {
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
 }
